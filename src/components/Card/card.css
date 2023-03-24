@@ -1,0 +1,93 @@
+.container {
+	padding: 2rem;
+	border-radius: 1rem;
+	box-shadow: 0px 0px 8px 1px rgb(253, 253, 253);
+	background: white;
+}
+
+.subheading {
+	font-size: 20pt;
+	margin-bottom: 1rem;
+}
+
+.result {
+	font-size: 16pt;
+	margin-bottom: 1rem;
+}
+
+.result:last-child {
+	margin-bottom: 0;
+}
+
+.input__flex{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.input {
+	border: unset;
+	border-bottom: 3px solid black;
+	font-size: 1rem;
+	font-weight: 400;
+	font-size: 16pt;
+}
+
+.input:focus{
+	outline: none;
+}
+
+.temp__button{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 100%;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: white;
+    /* ff 3.6+ */
+    background:-moz-linear-gradient(152deg, rgba(46, 46, 46, 1) 0%, rgba(0, 0, 0, 1) 50%, rgba(46, 46, 46, 1) 100%); 
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-linear-gradient(152deg, rgba(46, 46, 46, 1) 0%, rgba(0, 0, 0, 1) 50%, rgba(46, 46, 46, 1) 100%);
+
+    /* opera 11.10+ */
+    background:-o-linear-gradient(152deg, rgba(46, 46, 46, 1) 0%, rgba(0, 0, 0, 1) 50%, rgba(46, 46, 46, 1) 100%);
+
+    /* ie 6-9 */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2E2E2E', endColorstr='#2E2E2E', GradientType=1 );
+
+    /* ie 10+ */
+    background:-ms-linear-gradient(152deg, rgba(46, 46, 46, 1) 0%, rgba(0, 0, 0, 1) 50%, rgba(46, 46, 46, 1) 100%);
+
+    /* global 94%+ browsers support */
+    background:linear-gradient(152deg, rgba(46, 46, 46, 1) 0%, rgba(0, 0, 0, 1) 50%, rgba(46, 46, 46, 1) 100%);
+}
+
+.active{
+	background: green;
+}
+
+.result__button{
+    min-width: 100%;
+    padding: 1rem 0;
+    border-radius: 1rem;
+    color: white;
+    font-size: 18pt;
+	 /* ff 3.6+ */
+	 background:-moz-linear-gradient(152deg, rgba(46, 46, 46, 1) 0%, rgba(0, 0, 0, 1) 50%, rgba(46, 46, 46, 1) 100%); 
+
+	 /* safari 5.1+,chrome 10+ */
+	 background:-webkit-linear-gradient(152deg, rgba(46, 46, 46, 1) 0%, rgba(0, 0, 0, 1) 50%, rgba(46, 46, 46, 1) 100%);
+ 
+	 /* opera 11.10+ */
+	 background:-o-linear-gradient(152deg, rgba(46, 46, 46, 1) 0%, rgba(0, 0, 0, 1) 50%, rgba(46, 46, 46, 1) 100%);
+ 
+	 /* ie 6-9 */
+	 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2E2E2E', endColorstr='#2E2E2E', GradientType=1 );
+ 
+	 /* ie 10+ */
+	 background:-ms-linear-gradient(152deg, rgba(46, 46, 46, 1) 0%, rgba(0, 0, 0, 1) 50%, rgba(46, 46, 46, 1) 100%);
+ 
+	 /* global 94%+ browsers support */
+	 background:linear-gradient(152deg, rgba(46, 46, 46, 1) 0%, rgba(0, 0, 0, 1) 50%, rgba(46, 46, 46, 1) 100%);
+}
